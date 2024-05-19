@@ -22,34 +22,35 @@ pip install -r requirements.txt
 3. Run the Streamlit app:
 streamlit run LLM_project.py
 
-# How It Works
+# **How It Works**
 1.**Loading the Model and Tokenizer:** The app loads a pre-trained DistilBERT model and its tokenizer from Hugging Face's model hub.
 2.**Question Answering:** The app tokenizes the input question and context, then uses the model to predict the start and end positions of the answer in the context.
 3.**F1 Score Calculation:** The app computes the F1 score based on the overlap between the generated answer and the true answer provided by the user.
 4.**ROUGE Score Calculation:** The app computes ROUGE-1, ROUGE-2, and ROUGE-L scores to measure the quality of the generated answer.
 
-To use the app, follow these steps:
+**To use the app, follow these steps:**
 
 1. Enter your question in the "Enter your question" field.
 2. Enter the context in the "Enter the context" field.
 3. Optionally, enter the true answer in the "Enter the true answer" field for F1 and ROUGE score calculations.
 4. Click the "Get Answer" button to generate the answer and view the scores.
-Requirements
+
+**Requirements**
 Python 3.7 or higher
 streamlit
 transformers
 torch
 rouge_score
 
-Contributing
+**Contributing**
 Contributions are welcome! Please open an issue or submit a pull request if you have any suggestions or improvements.
 
-Acknowledgements
+**Acknowledgements**
 Hugging Face for providing the Transformers library and pre-trained models.
 Streamlit for providing an easy-to-use framework for building web apps.
 PyTorch for the deep learning framework.
 
-Contact
+**Contact**
 If you have any questions or feedback, feel free to reach out.
 
 Email: radharangarajan1988@gmail.com
